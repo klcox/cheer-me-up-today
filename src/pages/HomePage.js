@@ -3,24 +3,18 @@ import {Link} from "react-router-dom";
 
 const HomePage = () => {
     return (
-        <Container>            
+        <Container>          
 
-            <Row>
-                <Col>
-                    <h2>How can I cheer you up today?</h2>
-                </Col>
-            </Row>
-
-            <Row>
+            <Row className="mb-2">
                 <Col>
                     <Link to="/dadjoke">
-                        <Button>Dad Joke</Button>
+                        <Button>Tell me a Dad Joke</Button>
                     </Link>
                 </Col>
 
                 <Col>
                     <Link to="/kittypic">
-                        <Button>Kitty Pic</Button>
+                        <Button>Show me a cute Kitty Pic</Button>
                     </Link>
                 </Col>
             </Row>
@@ -28,13 +22,13 @@ const HomePage = () => {
             <Row>
                 <Col>
                     <Link to="/calmingvideo">
-                        <Button>Calming Video</Button>
+                        <Button>Play a Calming Video</Button>
                     </Link>
                 </Col>
 
                 <Col>
                     <Link to="/inspquote">
-                        <Button>Inspirational Quote</Button>
+                        <Button>Show me an Inspirational Quote</Button>
                     </Link>
                 </Col>
             </Row>

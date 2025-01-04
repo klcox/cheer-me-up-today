@@ -8,12 +8,12 @@ import KittyPicPage from "./pages/KittyPicPage"
 import CalmingVideoPage from "./pages/CalmingVideoPage";
 import InspQuotePage from "./pages/InspQuotePage";
 import Footer from "./components/Footer"
-import "./App.css";
+import "./CSS/App.css";
 
 function App() {
   return (
-    <div>
-      <Header /> 
+    <div className="App">
+      <Header />       
       <Routes>
         <Route path="/" element={<HomePage />} />     
         <Route path="about" element={<AboutPage />} />
